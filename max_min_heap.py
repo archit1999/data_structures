@@ -40,7 +40,7 @@ def extract_max(a, n, func):
 
 n = 8                           # int(input())
 a = [4, 7, 2, 3, 1, 5, 8, 6]    # list(map(int, input().split()))
-build_heap(a, n, min)           # pass either max/ min function for the required heap
+build_heap(a, n, min)           # pass either max/ min function for the required heap or a customized funciton for any object can also be used
 
 x, n = extract_max(a, n, min)
 print(x)
